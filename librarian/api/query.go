@@ -40,14 +40,13 @@ func getFScores(docIDScore map[string]int) (map[int][]string, []int) {
 	for dID, score := range docIDScore {
 		fs := fScore[score]
 		fScore[score] = []string{}
+
+		fScore[score] = append(fs, dID)
+		fSorted = append(fSorted, score)
 	}
-	fScore[score] = append(fs, dID)
-	fSorted = append(fSorted, score)
-}
+	sort.Sort(sort.Reverse(sort.IntSlice(fSorted)))
 
-sort.Sort(sort.Reverse(sort.IntSlice(fSorted)))
-
-return fScore, fSorted
+	return fScore, fSorted
 }
 
 func getDocMaps(tc tCatalog) (map[string]int, map[string]tIndices) {

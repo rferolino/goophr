@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d459d1d-5e91-4b46-b296-2479f261f311" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/librarian/feeder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/api/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/librarian/api/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/librarian/api/query.go" beforeDir="false" afterPath="$PROJECT_DIR$/librarian/api/query.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/common/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/librarian/common/helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/common/state.go" beforeDir="false" afterPath="$PROJECT_DIR$/librarian/common/state.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librarian/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/librarian/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
